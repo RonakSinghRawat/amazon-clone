@@ -1,47 +1,64 @@
-.navbar{
+.navbar {
     display: flex;
     border: 2px solid black;
     width: 100%;
-    height:54px;
+    height: 54px;
     border-radius: 20px;
     align-self: center;
 }
-body{
+
+body {
     background-color: lightgray
 }
-.logo{
+
+.logo {
     border: 2px solid black;
-    
+
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     background-color: lightgray;
 }
-.logo img{
+
+.logo img {
     width: 75px;
     display: flex;
     margin-top: -10px;
-   
+
 }
-.navitems{
+
+.navitems {
 
     display: flex;
     letter-spacing: 1px;
     justify-content: center;
     align-items: center;
     justify-items: center;
-  margin-left: 21px;
+    margin-left: 21px;
     gap: 259px;
-    
+
 
 }
-.navitems a{
-   padding: 50px;
-   padding-top: 1000px;
-   border-radius: 200px;
+
+.navitems a {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 19px;
+
 }
-.drop select{
+
+.drop select {
     margin-right: 11px;
 }
-.navitems div{
+
+.navitems div {
     border: 2px solid black;
+    border-radius: 20px;
+}
+
+.navitems a:hover {
+    background-color: rgba(80, 64, 64, 0.726);
+    color: white;
+}
+.home:hover {
+    color: wheat;
 }
